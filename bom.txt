@@ -48,3 +48,8 @@ DCDC
 Vin : 1..3.2V
 Vout : 5, 3.3, 2.5, 1.2
 eff > 70%, I = 100uA
+
+LTC3527
+http://www.digikey.com/product-detail/en/linear-technology/LTC3535EDD%23PBF/LTC3535EDD%23PBF-ND/1991836
+LDO on the 3.3V output for 2.5V
+LDO on the 2.5V for 1.2V
