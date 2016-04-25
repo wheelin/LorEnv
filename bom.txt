@@ -1,0 +1,28 @@
+## Display
+http://www.digikey.com/en/pdf/s/sharp-microelectronics/lcd-suite
+power consumption : 250uW
+
+## Display connector
+http://www.digikey.com/product-detail/en/molex-llc/0514411093/WM6474CT-ND/1089691
+
+## Wireless communication 
+http://shop.boxtec.ch/hoperf-rfm95w-868s2-lora-module-p-42561.html
+lora : 400nA shutdown, 10mA rx, 18mA +13dB tx
+
+## Joystick
+http://www.digikey.com/product-detail/en/c-k-components/TSWB3NCB222LFS/CKN10345-ND/2627684
+4 directions, bidirectional rotation and center click
+
+## Multifunction sensors
+http://www.digikey.com/product-search/en/sensors-transducers/multifunction/1967155?k=&pv345=204&pv345=49&pv345=240&FV=fff4001e%2Cfff80433&mnonly=0&newproducts=0&ColumnSort=0&page=1&stock=1&pbfree=1&rohs=1&quantity=0&ptm=0&fid=0&pageSize=25
+
+links to filtered sensors like temperature, pressure, humidity, accelerometer, gyroscope, magnetometer
+
+## Optical sensors
+http://www.digikey.com/product-search/en/sensors-transducers/optical-sensors-ambient-light-ir-uv-sensors/1966828
+
+## Microphone
+http://www.digikey.com/product-detail/en/knowles/SPW2430HR5H-B/423-1394-1-ND/5052772
+
+# Microcontroller
+http://www.digikey.com/product-detail/en/stmicroelectronics/STM32L476VGT6/497-15873-ND/5344349
