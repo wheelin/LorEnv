@@ -1,0 +1,18 @@
+## Alimentation
+2xbatteries with one on jumper, step-up DCDC and capacity measure, allow card to run on only one battery
+USB connector 
+regulator with shut-down for the audio codec
+
+## Custom configuration storage
+FRAM / MRAM, 256k min
+
+## Audio
+integrated audio amp in the codec
+output jack connector
+input jack connector
+micro connected to codec with jumper for input jack or micro choice
+
+## Light
+White power led driver
+RGB power led driver
+
