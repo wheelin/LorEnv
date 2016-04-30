@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LorEnvex-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,17 +32,22 @@ LIBS:valves
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
+LIBS:Altera
 LIBS:analog_devices
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:dc-dc
+LIBS:diode
 LIBS:elec-unifil
+LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
 LIBS:ir
+LIBS:Lattice
 LIBS:logo
+LIBS:maxim
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
@@ -53,7 +59,9 @@ LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
 LIBS:onsemi
+LIBS:Oscillators
 LIBS:powerint
+LIBS:Power_Management
 LIBS:pspice
 LIBS:references
 LIBS:relays
@@ -67,6 +75,8 @@ LIBS:switches
 LIBS:transf
 LIBS:ttl_ieee
 LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -102,28 +112,6 @@ F 2 "" H 1300 1600 50  0000 C CNN
 F 3 "" H 1300 1600 50  0000 C CNN
 	1    1300 1600
 	-1   0    0    -1  
-$EndComp
-$Comp
-L LED_RCBG D?
-U 1 1 571D3F98
-P 3150 4250
-F 0 "D?" H 3150 4600 50  0000 C CNN
-F 1 "LED_RCBG" H 3150 3900 50  0000 C CNN
-F 2 "" H 3150 4200 50  0000 C CNN
-F 3 "" H 3150 4200 50  0000 C CNN
-	1    3150 4250
-	0    -1   1    0   
-$EndComp
-$Comp
-L TSWB-3N-CB222 SW?
-U 1 1 571D43E9
-P 6200 1700
-F 0 "SW?" H 6200 1050 60  0000 C CNN
-F 1 "TSWB-3N-CB222" H 6200 1200 60  0000 C CNN
-F 2 "" H 6450 1750 60  0000 C CNN
-F 3 "" H 6450 1750 60  0000 C CNN
-	1    6200 1700
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
@@ -598,7 +586,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3850 3350 3950
 Wire Wire Line
-	3150 4550 3150 4650
+	3150 4350 3150 4650
 Wire Wire Line
 	2950 3400 2950 3550
 Wire Wire Line
@@ -662,4 +650,33 @@ Wire Wire Line
 	8950 1900 9050 1900
 Wire Wire Line
 	8700 2000 9050 2000
+$Comp
+L LED_RGB D?
+U 1 1 571F8E93
+P 3150 4150
+F 0 "D?" H 3150 4575 50  0000 C CNN
+F 1 "LED_RGB" H 3150 4500 50  0000 C CNN
+F 2 "" H 3150 4100 50  0000 C CNN
+F 3 "" H 3150 4100 50  0000 C CNN
+	1    3150 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 4350 2950 4450
+Wire Wire Line
+	2950 4450 3350 4450
+Wire Wire Line
+	3350 4450 3350 4350
+Connection ~ 3150 4450
+$Comp
+L TSWB-3N-CB222 SW?
+U 1 1 571FB9E4
+P 6200 1700
+F 0 "SW?" H 6200 1050 60  0000 C CNN
+F 1 "TSWB-3N-CB222" H 6200 1200 60  0000 C CNN
+F 2 "" H 6450 1750 60  0000 C CNN
+F 3 "" H 6450 1750 60  0000 C CNN
+	1    6200 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

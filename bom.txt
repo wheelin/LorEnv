@@ -10,9 +10,17 @@ Wireless communication
 =================
 http://shop.boxtec.ch/hoperf-rfm95w-868s2-lora-module-p-42561.html
 
-Joystick
+touchscreen overlay
 =================
-http://www.digikey.com/product-detail/en/c-k-components/TSWB3NCB222LFS/CKN10345-ND/2627684
+http://www.digikey.com/product-detail/en/newhaven-display-intl/TS-TFT3.5Z/TS-TFT3.5Z-ND/2626417
+
+touchscreen overlay connector
+===============================
+http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/84952-4/A100834CT-ND/2233217
+
+touchscreen controller
+======================
+http://www.digikey.com/product-detail/en/stmicroelectronics/STMPE811QTR/497-8387-1-ND/1973335
 
 Multifunction sensors
 =================

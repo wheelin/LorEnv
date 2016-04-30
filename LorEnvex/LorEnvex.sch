@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LorEnvex-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,17 +32,22 @@ LIBS:valves
 LIBS:74xgxx
 LIBS:ac-dc
 LIBS:actel
+LIBS:Altera
 LIBS:analog_devices
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:dc-dc
+LIBS:diode
 LIBS:elec-unifil
+LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
 LIBS:ir
+LIBS:Lattice
 LIBS:logo
+LIBS:maxim
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
@@ -53,7 +59,9 @@ LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
 LIBS:onsemi
+LIBS:Oscillators
 LIBS:powerint
+LIBS:Power_Management
 LIBS:pspice
 LIBS:references
 LIBS:relays
@@ -67,6 +75,8 @@ LIBS:switches
 LIBS:transf
 LIBS:ttl_ieee
 LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
